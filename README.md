@@ -4,6 +4,7 @@ This website is built using [Docusaurus](https://docusaurus.io/docs/next/), a mo
 Click the link to check the docs.
 
 ### Installation
+Use pnpm for faster installation and better dependency management.
 
 Install **pnpm** globally:
 ```bash
