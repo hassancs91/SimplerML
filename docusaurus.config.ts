@@ -84,7 +84,7 @@ const config: Config = {
         // ```
          language: ["en"],
          docsDir: "docs",
-         highlightSearchTermsOnTargetPage: true,
+         highlightSearchTermsOnTargetPage: false,
         // ```
       },
     ],
