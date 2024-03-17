@@ -45,15 +45,13 @@ const config: Config = {
           rehypePlugins: [rehypeKatex],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/hassancs91/SimplerML/tree/main/',
+          editUrl: 'https://github.com/hassancs91/SimplerML/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/hassancs91/SimplerML/tree/main/',
+          editUrl: 'https://github.com/hassancs91/SimplerML/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -68,6 +66,9 @@ const config: Config = {
       integrity:
         'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
+    },
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap',
     },
   ],
 

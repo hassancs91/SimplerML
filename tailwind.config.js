@@ -11,6 +11,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        pressStart: ['"Press Start 2P"', ...fontFamily.sans],
         sans: ['"Inter"', ...fontFamily.sans],
         jakarta: ['"Plus Jakarta Sans"', ...fontFamily.sans],
         mono: ['"Fira Code"', ...fontFamily.mono],
