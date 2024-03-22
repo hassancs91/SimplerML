@@ -36,16 +36,12 @@ const config: Config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       {
         gtag: {
           trackingID: 'G-D2984JWBMH',
           anonymizeIP: true,
         },
-      },
-
-      'classic',
-      {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.ts',
@@ -146,5 +142,8 @@ const config: Config = {
     },
   } satisfies Preset.ThemeConfig,
 }
+
+
+
 
 export default config
