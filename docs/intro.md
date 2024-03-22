@@ -5,38 +5,19 @@ slug: /
 
 # Welcome to SimplerML!
 
-Welcome to SimplerML, your go-to resource for learning machine learning in a straightforward and accessible way. Whether you're a beginner or an experienced practitioner looking to brush up on the basics, SimplerML is here to guide you through the world of machine learning.
+**No Prior Knowledge Needed**... Learn the **'Why'** and **'How'** of Machine Learning with Practical, Real-World Examples!
 
-## What is SimplerML?
+This online Free book is not just a collection of concepts and theories; it’s an interactive adventure that brings machine learning to life!
 
-SimplerML is not just another machine learning resource. It's a curated collection of easy-to-understand tutorials, practical examples, and hands-on projects designed to demystify complex machine learning concepts. We believe that learning machine learning should be intuitive, engaging, and, above all, simple.
+Machine learning is about computers learning from data. But this can sound complicated. That's why this SimplerML is here!
 
-## What Makes SimplerML Different?
+We want to make these big ideas easy and interesting for everyone. You don't need to be an expert to join in.
 
-- **Simplified Approach:** We break down complex topics into simple, easy-to-understand explanations.
+All you need is the passion to learn and a basic level of English, and I think you already have it since you are reading these sentences 😊
 
-- **Practical Learning:** Learn by doing with our interactive examples and hands-on projects.
+![SimplerML Intro](./img/img-intro.png "SimplerML Intro")
+<br/>
 
-- **Accessible Content:** Our content is designed for learners of all levels, from beginners to advanced users.
+The best part of this book is that it’s open source for everyone to read and contribute... and it’s interactive. This means you won't just read; you’ll get to play with the ideas, try out small experiments, and see how machine learning works in real life.
 
-- **Community Support:** Join our community of learners to ask questions, share insights, and collaborate on projects.
-
-## Explore SimplerML
-
-- **Tutorials:** Dive into our step-by-step tutorials covering a wide range of machine learning topics.
-
-- **Projects:** Get hands-on experience with our collection of machine learning projects and exercises.
-
-- **Resources:** Access additional resources, recommended readings, and helpful tools to enhance your learning journey.
-
-- **Community:** Connect with fellow learners, ask questions, and share your progress in our vibrant community forum.
-
-## Get Started with SimplerML
-
-Ready to embark on your machine learning journey? Start exploring SimplerML today and discover how easy and enjoyable learning machine learning can be!
-
-[Explore SimplerML](#) <!-- Replace '#' with your site's actual URL -->
-
-Happy learning!
-
-
+This book is for everyone – whether you’re studying, working, or just curious about technology. By the end, you'll know a lot more about machine learning and why it's important today.

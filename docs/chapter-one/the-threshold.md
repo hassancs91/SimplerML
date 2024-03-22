@@ -1,25 +1,22 @@
 ---
-sidebar_position: 5
-title: The Threshold
+sidebar_position: 6
+title: The Threshold 📏
 description: Understand the threshold using an everyday analogy.
 ---
 
-# The Threshold
+# The Threshold 📏
 
-
-Remember I told you we're gonna talk about the threshold! so let's do it now before we move on to a more complex example.
+Remember I told you we're going to discuss the threshold? Let's do it now before we move on to a more complex example.
 
 Let’s Understand Threshold Using an Everyday Analogy:
 
-## The Amusement Park Ride
+**The Amusement Park Ride**
 
-Imagine you’re at an amusement park, and there’s a viral roller coaster ride. However, there’s a height requirement to ensure safety – you must be at least 48 inches tall to ride.
+Imagine you’re at an amusement park, and there’s a viral roller coaster ride. However, to ensure safety, you must be at least 48 inches tall to ride.
 
+![threshold](./img/img-5.png "threshold")
 
-![alt_text](./img/img-1.png "image_tooltip")
-
-
-Imagine you’re at an amusement park, and there’s a viral roller coaster ride. However, there’s a height requirement to ensure safety – you must be at least 48 inches tall to ride.
+Imagine you’re at an amusement park, and there’s a viral roller coaster ride. However, to ensure safety, you must be at least 48 inches tall to ride.
 
 **1. Why the Height Requirement? (Objective)**
 
@@ -31,7 +28,7 @@ If most visitors are taller than 48 inches, many will get to ride. If many are s
 
 **3. Avoiding Disappointment (Performance Metrics)**
 
-The park doesn’t want to disappoint too many kids nor compromise safety. We also don’t want to label too many posts as viral when they’re not, or miss out on ones that are truly viral.
+The park doesn’t want to disappoint too many kids or compromise safety. We also don’t want to label too many posts as viral when they’re not or miss out on truly viral ones.
 
 **4. Testing the Height Stick (Cross-Validation)**
 
@@ -43,8 +40,8 @@ As kids grow, the park might adjust the height requirement. Similarly, as we get
 
 **6. Special Days (External Factors)**
 
-On a ‘kids day’, the park might lower the requirement slightly to let more kids enjoy. In social media, if there’s a special event or trend, we might adjust our threshold to reflect that.
+On a ‘kids day,’ the park might lower the requirement slightly to let more kids enjoy themselves. On social media, if there’s a special event or trend, we might adjust our threshold to reflect that.
 
-Hope this journey helped you understand how you can set a threshold!
+I hope this journey helped you understand how you can set a threshold!
 
-Ok, we are back now after a scary roller coaster ride, let’s level up with more complex scenarios!
+Ok, we are back now after a scary roller coaster ride. Let’s level up with more complex scenarios!

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+        #app {
+            width: 80%;
+            max-width: 500px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            border-radius: 10px;
+        }
+
+        .feature {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 0.8em;
+        }
+
+        input[type=range] {
+            width: calc(100% - 60px);
+            vertical-align: middle;
+        }
+
+        span {
+            display: inline-block;
+            width: 50px;
+            text-align: center;
+            font-size: 0.7em;
+            color: #666;
+            vertical-align: middle;
+        }
+
+        #predictionResult {
+            margin-top: 20px;
+            font-size: 1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="feature">
+            <label for="timeOfDay">Time of Day (0 = Morning, 1 = Night):</label>
+            <input type="range" id="timeOfDay" min="0" max="1" step="0.1" value="0.5" oninput="updatePrediction()">
+            <span id="timeOfDayValue">0.5</span>
+        </div>
+        <div class="feature">
+            <label for="contentType">Content Type (0 = Text, 1 = Video):</label>
+            <input type="range" id="contentType" min="0" max="1" step="0.1" value="0.5" oninput="updatePrediction()">
+            <span id="contentTypeValue">0.5</span>
+        </div>
+        <div class="feature">
+            <label for="dayOfWeek">Day of Week (0 = Weekday, 1 = Weekend):</label>
+            <input type="range" id="dayOfWeek" min="0" max="1" step="0.1" value="0.5" oninput="updatePrediction()">
+            <span id="dayOfWeekValue">0.5</span>
+        </div>
+        <div id="predictionResult"></div>
+    </div>
+    <script>
+        function predictPopularity() {
+            var timeOfDay = document.getElementById('timeOfDay').value;
+            var contentType = document.getElementById('contentType').value;
+            var dayOfWeek = document.getElementById('dayOfWeek').value;
+
+            var weights = { time: 0.3, content: 0.5, day: 0.2 };
+            var score = (timeOfDay * weights.time) + (contentType * weights.content) + (dayOfWeek * weights.day);
+            var popularityResult = document.getElementById('predictionResult');
+
+            if (score > 0.5) {
+                popularityResult.innerHTML = "Popular &#x1F60E;"; // Smiling face with sunglasses emoji
+                popularityResult.style.color = "green";
+            } else {
+                popularityResult.innerHTML = "Not Popular &#x1F641;"; // Slightly frowning face emoji
+                popularityResult.style.color = "red";
+            }
+        }
+
+        function updatePrediction() {
+            document.getElementById('timeOfDayValue').textContent = document.getElementById('timeOfDay').value;
+            document.getElementById('contentTypeValue').textContent = document.getElementById('contentType').value;
+            document.getElementById('dayOfWeekValue').textContent = document.getElementById('dayOfWeek').value;
+            predictPopularity();
+        }
+
+        window.onload = function() {
+            updatePrediction(); // Initial prediction and value display
+        };
+    </script>
+</body>
+</html>

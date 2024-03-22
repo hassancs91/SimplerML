@@ -7,7 +7,7 @@ import rehypeKatex from 'rehype-katex'
 
 const config: Config = {
   title: 'SimplerML',
-  tagline: 'Learn ML in a simpler way',
+  tagline: 'Learn Machine Learning in a simpler way',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -100,9 +100,31 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
-        { to: '/', label: 'About', position: 'right' },
+        { to: 'https://patreon.com/heducate', label: ' 🤝 Donate', position: 'right' },
 
-        { to: '/', label: 'Contact', position: 'right' },
+        { to: 'https://discord.gg/JExyDxZ5wf', label: ' 💬 Discord', position: 'right' },
+        
+        { to: 'https://github.com/hassancs91/SimplerML', label: ' 💻 Github', position: 'right' },
+        
+        {
+          type: 'dropdown',
+          label: 'More',
+          position: 'right',
+          items: [
+            {
+              label: 'SimplerLLM',
+              href: 'https://github.com/hassancs91/SimplerLLM',
+            },
+            {
+              label: 'Author\'s Website',
+              href: 'https://learnwithhasan.com/',
+            },
+            
+            
+            // ... more items
+          ],
+        },
+      
       ],
     },
 

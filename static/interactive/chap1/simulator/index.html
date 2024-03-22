@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="data-input">
+            <table id="inputTable">
+                <!-- Table rows will be dynamically generated here -->
+            </table>
+        </div>
+
+        <div class="simulation-controls">
+            <div class="form-control">
+                <label>Error Threshold: <input type="number" id="errorThreshold" value="0.2" step="0.01"></label>
+            </div>
+            <div class="form-control">
+                <label>Prediction Threshold: <input type="number" id="predictionThreshold" value="0.85"
+                        step="0.01"></label>
+            </div>
+            <div class="form-control">
+                <label>Number of Iterations: <input type="number" id="numIterations" value="100"></label>
+            </div>
+
+            <button onclick="startSimulation()">Start Simulation</button>
+        </div>
+
+        <div class="simulation-output">
+            <div id="progressBarContainer">
+                <div id="progressBar">0%</div>
+            </div>
+
+            <h2>Iteration Details:</h2>
+            <div id="iterationsOutput"></div>
+
+            <h2>Results Chart:</h2>
+            <div id="chartContainer">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
