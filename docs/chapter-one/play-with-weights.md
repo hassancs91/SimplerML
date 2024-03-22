@@ -14,7 +14,7 @@ Fill the sample table with data, set your thresholds, and the number of iteratio
 
 _Note: Don't set a very large number of iterations so your browser doesn't crash!_
 
-<iframe src="http://localhost:3000/interactive/chap1/simulator/index.html" width="100%" height="1320" frameborder="0"></iframe>
+<iframe src="https://simplerml.com/interactive/chap1/simulator/index.html" width="100%" height="1320" frameborder="0"></iframe>
 <br/>
 
 ## For Python Coders
