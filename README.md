@@ -37,3 +37,6 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 For more details on deployment, check the [Docusaurus documentation](https://docusaurus.io/docs/next/deployment).
+
+### Contributing
+Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
