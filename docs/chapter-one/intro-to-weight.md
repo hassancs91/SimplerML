@@ -42,8 +42,9 @@ Our primary goal is to find the proper weights so that when you give it an input
 
 Here is a simple **_simulation_** on how weights affects our predictions:
 
-<iframe src="https://simplerml.com/interactive/chap1/basic_predictor/index.html" width="100%" height="300" frameborder="0"></iframe>
+<iframe src="/interactive/chap1/basic_predictor/index.html" width="100%" height="400" frameborder="0"></iframe>
 <br/>
+
 Imagine you know the exact weights for each condition that makes a post viral. Then, you will not only predict virality but also have one billion followers in one **week!**
 
 ![Going Viral on Twitter](./img/img-2.png "Going Viral on Twitter")

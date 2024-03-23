@@ -70,10 +70,7 @@ const config: Config = {
       integrity:
         'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
       crossorigin: 'anonymous',
-    },
-    {
-      href: 'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap',
-    },
+    }
   ],
   themes: [
     [
@@ -107,9 +104,9 @@ const config: Config = {
         { to: 'https://patreon.com/heducate', label: ' 🤝 Donate', position: 'right' },
 
         { to: 'https://discord.gg/JExyDxZ5wf', label: ' 💬 Discord', position: 'right' },
-        
+
         { to: 'https://github.com/hassancs91/SimplerML', label: ' 💻 Github', position: 'right' },
-        
+
         {
           type: 'dropdown',
           label: 'More',
@@ -123,12 +120,12 @@ const config: Config = {
               label: 'Author\'s Website',
               href: 'https://learnwithhasan.com/',
             },
-            
-            
+
+
             // ... more items
           ],
         },
-      
+
       ],
     },
 
