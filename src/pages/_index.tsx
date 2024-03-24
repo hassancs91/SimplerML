@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="bg-blue-800"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Machine Learning Course
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Learn ML in a simpler way">
+      description="Machine Learning Made Simple!">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

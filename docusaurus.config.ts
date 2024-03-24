@@ -7,7 +7,7 @@ import rehypeKatex from 'rehype-katex'
 
 const config: Config = {
   title: 'SimplerML',
-  tagline: 'Learn Machine Learning in a simpler way',
+  tagline: 'Machine Learning Made Simple!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -93,7 +93,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/simplerml-social.png',
     navbar: {
       title: 'SimplerML',
       logo: {
