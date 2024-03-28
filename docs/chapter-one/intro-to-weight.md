@@ -63,7 +63,7 @@ What we will do now is look at posts already published, collect a list of both v
 - Length of Content
 - Engagement Level
 
-So we have like a table containing records for each multiple posts, something like this:
+So we have like a table containing records for each multiple post, something like this:
 
 <table>
   <tr>
@@ -110,17 +110,17 @@ So we have like a table containing records for each multiple posts, something li
 
 Perfect!
 
-Now, with machine learning we will figure out the patterns and relations between the inputs and outputs. **these are the weights!** Another term for weights may be _relations_.
+Now, with machine learning, we will figure out the patterns and relations between the inputs and outputs. **These are the weights!** Another term for weights may be _relations_.
 
 **So, when we figure out the weights (_relations_) we can predict the output for new inputs.**
 
-In our case new inputs are new posts.
+In our case, new inputs are new posts.
 
 ![weights example](./img/img-3.png "weights example")
 
 Now that we've seen how assigning different weights to our conditions affects the outcome, we are beginning to touch on the essence of machine learning.
 
-Let's explore how this learning process works, stepping further into the world of machine learning, and how we can find the weights. **Here is were the magic begins!**
+Let's explore how this learning process works, stepping further into the world of machine learning, and how we can find the weights. **Here is where the magic begins!**
 
 ## Finding weights with a random guess!
 
@@ -145,7 +145,7 @@ For simplicity, let’s say we assign weights on a scale from 0 to 1.
 Suppose we have a post with the following characteristics:
 
 - Posted at 15:00 (3 PM, represented as 15)
-- Content Length: 150 characters
+- Content-Length: 150 characters
 - Engagement Level: 50 (average likes and comments)
 
 We calculate the virality score as follows:
@@ -176,11 +176,11 @@ When we find a set of weights that gives us good predictions **(meaning our pred
 
 It is like Guessing the Numbers for a lock!
 
-Imagine you’re trying to unlock a combination lock, but you don’t know the correct numbers. You try different combinations randomly. Suddenly, one combination clicks and the lock opens.
+Imagine you’re trying to unlock a combination lock, but you don’t know the correct numbers. You try different combinations randomly. Suddenly, one combination clicks, and the lock opens.
 
 In machine learning, discovering a set of weights that accurately predicts outcomes (like whether a social media post will be viral) is similar to finding the right combination for a lock.
 
 The moment we find a good combination of weights is very important, here is why:
 
 - **Validation of Our Approach**: Discovering effective weights validates that our approach and understanding of the problem are on the right track.
-- **Baseline for Improvement**: This set of weights becomes a baseline. We know these weights work to some extent, so now we can try to improve them further. **we are not blind anymore!** we can optimize based on something from now on.
+- **Baseline for Improvement**: This set of weights becomes a baseline. We know these weights work to some extent, so now we can try to improve them further. **We are not blind anymore!** We can optimize based on something from now on.
